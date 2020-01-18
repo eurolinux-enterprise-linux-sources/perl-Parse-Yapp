@@ -1,6 +1,6 @@
 Name:           perl-Parse-Yapp
 Version:        1.05
-Release:        49%{?dist}
+Release:        50%{?dist}
 Summary:        Perl extension for generating and using LALR parsers
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -52,6 +52,9 @@ make test
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.05-50
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Petr Pisar <ppisar@redhat.com> - 1.05-49
 - Specify all dependencies
 - Modernize spec file
